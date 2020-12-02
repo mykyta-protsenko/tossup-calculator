@@ -1,6 +1,6 @@
 package com.protsenko.tossup.states
 
-class TossupStates : States {
+public class TossupStates : States {
     override fun states(): List<State> {
         return listOf(
             State("Wisconsin", 10),
