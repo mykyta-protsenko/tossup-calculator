@@ -5,11 +5,11 @@ import org.assertj.core.groups.Tuple.tuple
 import org.junit.jupiter.api.Test
 import java.util.function.Function
 
-internal class BidenStatesTest {
+internal class TrumpStatesTest {
     @Test
     fun testStates(){
-        assertThat(BidenStates().states())
+        assertThat(TrumpStates().states())
             .extracting(Function { s -> s.name})
-            .contains(tuple("Oregon"))
+            .contains(tuple("Utah"))
     }
 }
