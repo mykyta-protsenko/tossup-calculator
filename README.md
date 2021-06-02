@@ -6,3 +6,5 @@ This project was made to compare the dumb calculations to more advanced models
 (such as RCP or 538).
 
 See https://fivethirtyeight.com/
+
+Also see https://www.realclearpolitics.com/
